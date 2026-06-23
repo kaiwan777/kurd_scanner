@@ -52,6 +52,6 @@ if __name__ == "__main__":
         description="Kurd Scanner - A high-speed, multithreaded subdomain enumeration tool.")
     parser.add_argument("-d", "--domain", required=True, help="Target domain to scan (e.g., google.com)")
     parser.add_argument("-w", "--wordlist", required=True, help="Path to the wordlist file")
-
+    parser.add_argument("-o", "--output", required=False, help="Save output to a text file")
     args = parser.parse_args()
     scan_subdomains(args.domain, args.wordlist)
