@@ -16,7 +16,7 @@ Open your terminal (e.g., in Kali Linux) and run the following commands one by o
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/kaiwan777/kurd_scanner.git](https://github.com/kaiwan777/kurd_scanner.git)
+# 1. git clone [https://github.com/kaiwan777/kurd_scanner.git](https://github.com/kaiwan777/kurd_scanner.git)
 
 # 2. Move into project directory
  cd kurd_scanner
